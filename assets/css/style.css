@@ -3,8 +3,11 @@
   src: url('../fonts/Vazirmatn-Regular.ttf') format('truetype');
 }
 
+* {
+  font-family: 'Vazir' !important;
+}
+
 body {
-  font-family: 'Vazir';
   color: #fff;
   position: relative;
   background: transparent;
@@ -34,6 +37,19 @@ a {
 a:hover {
   color: #35e888;
   text-decoration: none;
+}
+
+.typed {
+  display: flex;
+  direction: rtl;
+}
+
+.typing {
+  margin-right: 10px;
+}
+
+.typed-cursor {
+  margin-left: 10px;
 }
 
 img {
