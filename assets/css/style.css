@@ -700,6 +700,7 @@ section .container {
   padding: 20px;
   width: 100%;
   background: #09203a;
+  margin-bottom: 20px;
 }
 
 .contact .info-box i.bx {
